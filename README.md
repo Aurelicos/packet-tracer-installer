@@ -10,7 +10,7 @@ git clone https://github.com/Aurelicos/packet-tracer-installer/
 cd packet-tracer-installer/
 ```
 <br></br>
-> After that change the permissions of the "packet-tracer.sh" file and run the script
+> After that change the permissions of the "packet-tracer.sh" file, and run the script
 ```bash
 chmod +x packet-tracer.sh
 ./packet-tracer.sh
