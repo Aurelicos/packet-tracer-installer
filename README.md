@@ -14,3 +14,10 @@ After that change the permissions of the "packet-tracer.sh" file and run the scr
 chmod +x packet-tracer.sh
 ./packet-tracer.sh
 ```
+
+To use the help, enter the following syntax:
+```bash
+./packet-tracer.sh -h
+```
+
+Notice: you will need a cisco account to download the packet tracer
