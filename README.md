@@ -2,7 +2,6 @@
 A simple bash script for installing a packet tracer for other distributions except Ubuntu.
 
 
-
 Enter the following commands to run the packet tracer installer:
 
 First clone this repository using the git clone command and move to the directory that was created after cloning
