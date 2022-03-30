@@ -8,7 +8,7 @@ help()
    echo 
    echo "This script is for easy and fast packet tracer installation."
    echo
-   echo "Syntax: bash packet-tracer.sh [-h|d|n]"
+   echo "Syntax: bash packet-tracer.sh [-h|d|o]"
    echo "options:"
    echo "-h     Print this Help."
    echo "-d     Install default version of packet tracer (version 8.1.1)."
