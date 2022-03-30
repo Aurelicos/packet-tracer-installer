@@ -29,11 +29,11 @@ default()
    
    if [ "$answer" == "yes" ]; then
      rm -rf ~/packettracer
+     rm -rf ~/packet-tracer-installer/
      echo "path is valid, Continuing..."
      lcdir="$(pwd)"
      mv $lcdir/packet-tracer.sh ~/
-     cd ~/
-     git clone https://aur.archlinux.org/packettracer.git
+     git clone https://aur.archlinux.org/packettracer.git ~/packettracer
      cp Downloads/CiscoPacketTracer_811_Ubuntu_64bit.deb ~/packettracer
      cd ~/packettracer
      makepkg -si
