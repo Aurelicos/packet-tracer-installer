@@ -33,8 +33,9 @@ default()
      lcdir="$(pwd)"
      mv $lcdir/packet-tracer.sh ~/
      git clone https://aur.archlinux.org/packettracer.git ~/packettracer
-     cp Downloads/CiscoPacketTracer_811_Ubuntu_64bit.deb ~/packettracer
+     cp ~/Downloads/CiscoPacketTracer* ~/packettracer
      cd ~/packettracer
+     mv CiscoPacketTracer* CiscoPacketTracer_811_Ubuntu_64bit.deb
      makepkg -si
      sudo pacman -U packettracer-* --noconfirm
      rm -rf ~/packettracer
