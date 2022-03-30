@@ -42,7 +42,7 @@ default()
      rm -rf ~/packet-tracer.sh ~/packet-tracer-installer/
      clear
      echo
-     echo "Thank you for using this script :-)" | lolcat
+     echo "Thank you for using this script" | lolcat
      echo
    else
      clear
@@ -65,7 +65,7 @@ older()
      ./PacketTracer-7.2.2-ubuntu-setup.run
      clear
      echo
-     echo "Thank you for using this script :-)" | lolcat
+     echo "Thank you for using this script" | lolcat
      echo
    else
      clear
@@ -73,6 +73,14 @@ older()
      older
    fi
 }
+
+if [ $1 == "" ]; then
+  # The default part of the script that runs when no function is running.
+  echo
+  echo "Please Use Syntax!"
+  echo "-h for help"
+  echo
+fi
 
 while getopts ":h :d :o" option; do 	# Choosing option of this script
    case $option in
@@ -90,9 +98,3 @@ while getopts ":h :d :o" option; do 	# Choosing option of this script
          ;;
    esac
 done
-
-# The default part of the script that runs when no function is running.
-echo
-echo "Please Use Syntax!"
-echo "-h for help"
-echo
