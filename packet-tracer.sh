@@ -29,7 +29,6 @@ default()
    
    if [ "$answer" == "yes" ]; then
      rm -rf ~/packettracer
-     rm -rf ~/packet-tracer-installer/
      echo "path is valid, Continuing..."
      lcdir="$(pwd)"
      mv $lcdir/packet-tracer.sh ~/
