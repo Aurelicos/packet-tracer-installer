@@ -74,7 +74,7 @@ older()
    fi
 }
 
-if [ $1 == "" ]; then
+if [ "$1" == "" ]; then
   # The default part of the script that runs when no function is running.
   echo
   echo "Please Use Syntax!"
