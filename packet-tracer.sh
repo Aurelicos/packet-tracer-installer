@@ -3,6 +3,7 @@
 help()
 {
    # Function For Display Help
+   echo
    echo "Welcome to packet tracer installer!" | lolcat
    echo
    echo 
