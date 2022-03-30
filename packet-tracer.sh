@@ -39,6 +39,7 @@ default()
      makepkg -si
      sudo pacman -U packettracer-* --noconfirm
      rm -rf ~/packettracer
+     rm -rf ~/packet-tracer.sh ~/packet-tracer-installer/
      clear
      echo
      echo "Thank you for using this script :-)" | lolcat
