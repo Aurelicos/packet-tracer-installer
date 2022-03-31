@@ -41,7 +41,7 @@ default()
      sudo pacman -U packettracer-* --noconfirm
      rm -rf ~/packettracer
      rm -rf ~/packet-tracer.sh ~/packet-tracer-installer/
-     clear
+     echo
      echo
      echo "Thank you for using this script" | lolcat
      echo
@@ -64,7 +64,7 @@ older()
      cd ~/Downloads
      chmod +x PacketTracer-7.2.2-ubuntu-setup.run 
      ./PacketTracer-7.2.2-ubuntu-setup.run
-     clear
+     echo
      echo
      echo "Thank you for using this script" | lolcat
      echo
