@@ -24,5 +24,5 @@ chmod +x packet-tracer.sh
 Notice: you will need a cisco account to download the packet tracer
 
 <br></br>
-<h3>If there are any problems write to my discord:</h3>
-https://discordapp.com/users/869579499266793512
+<h3>If there are any problems write to my discord:</h3><a href="https://discordapp.com/users/869579499266793512" title="My discord account" id="logo" target="_blank" data-hveid="8"><img src="https://jablickar.cz/wp-content/uploads/2021/03/Discord-logo.png.webp" height="50" width="80"></a>
+
